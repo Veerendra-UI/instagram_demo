@@ -13,7 +13,7 @@ class UserProfileBar extends StatelessWidget {
       child: Row(
         children: [
           Text(
-            'manty.k',
+            'Veeru.H',
             style: TextStyle(
                 fontSize: vUserNameTitleSize, fontWeight: FontWeight.bold),
           ),

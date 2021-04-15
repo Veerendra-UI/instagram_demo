@@ -35,7 +35,7 @@ class SearchBar extends StatelessWidget {
         ),
         SizedBox(height: 10,),
         Container(
-          height: 40,
+          height: 350,
             color: Colors.white,
           child: ListView.builder(
               itemCount: tagList.length,

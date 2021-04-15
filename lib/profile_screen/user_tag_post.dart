@@ -8,7 +8,7 @@ class UserTaggedPosts extends StatelessWidget {
         return Container(
             padding: EdgeInsets.all(1),
             color: Colors.white,
-            child: Image.network('https://picsum.photos/id/${index + 50}/200'));
+            child: Image.network('https://picsum.photos/${index + 200}'));
       },
       itemCount: 15,
       gridDelegate:

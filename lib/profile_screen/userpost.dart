@@ -9,7 +9,8 @@ class UserPost extends StatelessWidget {
          return Container(
            padding: EdgeInsets.all(1),
            color: Colors.white,
-           child: Image.network('https://picsum.photos/id/${index + 110}/200'),
+           child:
+           Image.network('https://picsum.photos/${index + 110}/200'),
          );
        },
     itemCount: 19,

@@ -30,7 +30,7 @@ class UserStory extends StatelessWidget {
               shape: BoxShape.circle,
               color: Colors.black12,
               image: DecorationImage(
-                  image: NetworkImage('https://picsum.photos/id/$imageID/200'),
+                  image: NetworkImage('https://picsum.photos/id/$imageID/200/300'),
                   fit: BoxFit.contain),
             ),
           ),

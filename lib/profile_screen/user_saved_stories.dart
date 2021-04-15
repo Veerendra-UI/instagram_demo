@@ -16,12 +16,16 @@ class UserSavedStories extends StatelessWidget {
         child: ListView(
           scrollDirection: Axis.horizontal,
           children: [
-            UserStory(1022),
-            UserStory(1031),
-            UserStory(1026),
+            UserStory(1025),
+            UserStory(1036),
+            UserStory(1028),
+            UserStory(1010),
+            UserStory(1054),
+            UserStory(1045),
             UserStory(1029),
             UserStory(1033),
             UserStory(1045),
+
             AddUserStoryButton(),
           ],
         ),

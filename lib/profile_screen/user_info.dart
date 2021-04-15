@@ -19,7 +19,7 @@ class UserInfoPannel extends StatelessWidget {
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
                   image: DecorationImage(
-                      image: NetworkImage('https://picsum.photos/id/447/200'),
+                      image: NetworkImage('https://picsum.photos/id/426/200'),
                   fit: BoxFit.contain
                   ),
                 ),

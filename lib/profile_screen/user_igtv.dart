@@ -6,12 +6,14 @@ class UserIGTv extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return StaggeredGridView.countBuilder(crossAxisCount: 3,
-      itemCount: 5,
+      itemCount: 10,
       itemBuilder: (context, index) {
         return Container(
           color: Colors.black12,
-          child: Image.network('https://picsum.photos/id/${index + 70}/200/300',
+          child:
+          Image.network('https://picsum.photos/id/${index }/200/300',
             fit: BoxFit.cover,),
+
         );
       },
       staggeredTileBuilder: (index) {
